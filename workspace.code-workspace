@@ -1,0 +1,32 @@
+{
+    "folders": [
+		{
+			"path": "../../CPP"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../laravel-vue"
+		}
+	],
+    "settings": {
+        "files.associations": {
+            "atomic": "c",
+            "bitset": "c",
+            "queue": "c",
+            "ostream": "c",
+            "iostream": "c",
+            "random": "c",
+            "vector": "c",
+            "algorithm": "c",
+            "solution.h": "c",
+            "solution.cpp": "c",
+            "__locale": "c",
+            "functional": "c",
+            "string": "cpp",
+            "iosfwd": "cpp"
+        },
+        "makefile.extensionOutputFolder": "./.vscode"
+    }
+}
