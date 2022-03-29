@@ -1,5 +1,6 @@
 # employees [Employee]
-<!-- id
+<!-- 
+id
 name
 email
 phone
@@ -7,23 +8,29 @@ address
 salary
 photo
 nid
-joinging_date -->
+joinging_date 
+-->
 
 # suppliers [Supplier]
-<!-- id
+<!--
+id
 name
 email
 phone
 address
 photo
-shop_name -->
+shop_name 
+-->
 
 # categories [Category]
-<!-- id
-name -->
+<!-- 
+id
+name 
+-->
 
 # products [Product]
-<!-- id
+<!-- 
+id
 name
 code
 root
@@ -33,33 +40,41 @@ image
 buying_price
 selling_price
 category_id
-supplier_id -->
+supplier_id 
+-->
 
 # expenses [Expense]
-<!-- id
+<!-- 
+id
 details
 amount
 date
-name -->
+name 
+-->
 
 # customers [Customer]
-<!-- id
+<!-- 
+id
 name
 email
 phone
 address
-photo -->
+photo 
+-->
 
 # slaries [Slary]
-<!-- id
+<!-- 
+id
 amount
 date
 month
 year
-demployee_id -->
+demployee_id 
+-->
 
 # orders [Order]
-<!-- id
+<!-- 
+id
 qty
 sub_total
 vat
@@ -70,15 +85,18 @@ pay_by
 order_date
 month
 year
-customer_id -->
+customer_id 
+-->
 
 # order_details [OrderDetail]
-<!-- id
+<!-- 
+id
 quantity
 price
 sub_total
 product_id
-order_id -->
+order_id 
+-->
 
 <!-- #  |--------------------------------------------------------------------------|
 #  |TABLES                   #TABLES                             #TABLES      |

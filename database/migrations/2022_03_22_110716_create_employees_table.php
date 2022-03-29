@@ -20,7 +20,7 @@ class CreateEmployeesTable extends Migration
             $table->string('phone')->unique();
             $table->float('salary');
             $table->string('photo');
-            $table->integer('nid')->unique();
+            $table->string('nid')->unique();
             $table->date('joinging_date');
             $table->timestamps();
         });
